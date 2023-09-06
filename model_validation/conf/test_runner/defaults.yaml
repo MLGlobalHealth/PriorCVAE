@@ -1,0 +1,4 @@
+instance:
+  _target_: model_validation.tests.SquaredExponentialTestRunner
+  kernel: ${kernel.instance}
+  grid: ${grid.instance}

@@ -1,0 +1,13 @@
+jax==0.4.13
+jaxlib==0.4.13
+numpyro==0.12.1
+flax==0.6.11
+optax==0.1.5
+torch==2.0.1
+jupyter==1.0.0
+matplotlib==3.7.1
+orbax-checkpoint==0.2.7
+geopandas==0.13.2
+numpy==1.25.1
+dill==0.3.6
+arviz==0.16.1

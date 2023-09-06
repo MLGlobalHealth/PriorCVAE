@@ -1,0 +1,12 @@
+.DS_Store
+.ipynb_checkpoints
+.vscode
+__pycache__
+.pytest_cache
+*.egg*
+.eggs
+*.egg-info
+.idea
+build/
+output/
+outputs/

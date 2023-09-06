@@ -1,0 +1,9 @@
+size: 80
+x_min: 0
+x_max: 1
+
+instance:
+  _target_: jax.numpy.linspace
+  start: ${grid.x_min}
+  stop: ${grid.x_max}
+  num: ${grid.size}

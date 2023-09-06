@@ -1,0 +1,5 @@
+learning_rate: 0.001
+
+instance:
+  _target_: optax.adam
+  learning_rate: ${optimizer.learning_rate}

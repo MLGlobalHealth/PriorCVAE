@@ -1,0 +1,16 @@
+input_dim: ${grid.size}
+hidden_dim: 60
+latent_dim: 40
+vae_variance: 1.0
+
+instance:
+  _target_: priorCVAE.models.VAE
+  decoder:
+    _target_: priorCVAE.models.MLPDecoder
+    hidden_dim: ${model.hidden_dim}
+    out_dim: ${model.input_dim}
+  encoder:
+    _target_: priorCVAE.models.MLPEncoder
+    hidden_dim: ${model.hidden_dim}
+    latent_dim: ${model.latent_dim}
+
